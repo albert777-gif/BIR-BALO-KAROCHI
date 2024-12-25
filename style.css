@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-left .logo {
+    height: 30px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.language-dropdown {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.language {
+    margin-right: 5px;
+}
+
+.dropdown-icon {
+    font-size: 10px;
+}
+
+.play-now {
+    background-color: #f7b500;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.main-nav ul li a:hover {
+    background-color: #444;
+}
+
+.background {
+    position: relative;
+    height: 100vh;
+    background: 
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    background-color: #f7b500;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn.console {
+    background-color: #000;
+    color: #fff;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
